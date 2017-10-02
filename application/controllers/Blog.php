@@ -68,7 +68,7 @@ class Blog extends Front_Controller
 //        p($this->db->last_query());
 //        p($d['count']);
 
-        $this->view('blog', $d);
+        $this->view('index', $d);
 
 //        $this->load->view('on_project');
 

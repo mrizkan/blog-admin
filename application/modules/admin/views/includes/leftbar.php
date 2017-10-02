@@ -11,7 +11,7 @@
                         <i class="zmdi zmdi-view-dashboard"></i><span> Dashboard </span> </a>
                 </li>
 
-                <li class="has_sub">
+                <li class="has_sub" style="display: none">
                     <a href="javascript:void(0);" class="waves-effect">
                         <i class="ion-gear-a"></i>
                         <span>Pre-Setting </span>
@@ -72,7 +72,7 @@
                             </ul>
                         </li>
 
-                        <li class="has_sub" >
+                        <li class="has_sub" style="display: none" >
                             <a href="#" class="waves-effect">
                                 <i class="ion ion-at"></i>
                                 <span> Brand </span> <span
@@ -84,7 +84,7 @@
                             </ul>
                         </li>
 
-                        <li class="has_sub" style="">
+                        <li class="has_sub" style="display: none ">
                             <a href="#" class="waves-effect">
                                 <i class="ion ion-android-book"></i>
                                 <span> Category </span> <span
@@ -98,7 +98,7 @@
                         </li>
 
 
-                        <li class="has_sub">
+                        <li class="has_sub" style="display: none">
                             <a href="#" class="waves-effect">
                                 <i class="ion ion-clipboard"></i>
                                 <span> Sub Category </span> <span
@@ -147,7 +147,7 @@
 
 
 
-                <li class="has_sub" style="">
+                <li class="has_sub" style="display: none">
                     <a href="#" class="waves-effect">
                         <i class="fa fa-anchor"></i>
                         <span> Product </span> <span
@@ -160,7 +160,7 @@
                     </ul>
                 </li>
 
-                <li class="has_sub" style="">
+                <li class="has_sub" style="display: none">
                     <a href="#" class="waves-effect">
                         <i class="zmdi zmdi-fire"></i>
                         <span> Special Offers </span> <span
@@ -174,7 +174,7 @@
                 </li>
 
 
-                <li class="has_sub" style="">
+                <li class="has_sub" style="display: none">
                     <a href="#" class="waves-effect">
                         <i class="ion-ios7-printer"></i>
                         <span> Garments </span> <span
@@ -212,7 +212,7 @@
                     </ul>
                 </li>
 
-                <li class="has_sub" style="">
+                <li class="has_sub" style="display: none">
                     <a href="#" class="waves-effect">
                         <i class="ion ion-stats-bars  "></i>
                         <span> Advertisement </span> <span
@@ -263,7 +263,7 @@
                     </ul>
                 </li>
 
-                <li class="has_sub" style="display: none">
+                <li class="has_sub">
                     <a href="#" class="waves-effect">
                         <i class="ion ion-bag"></i>
                         <span> Blog </span> <span
@@ -310,6 +310,7 @@
                         <li><a href="<?= base_url('admin/video/rearrange') ?>"><span>Gallery Re-arrange</span></a></li>
                     </ul>
                 </li>
+
                 <!--                <li class="has_sub">-->
                 <!--                    <a href="#" class="waves-effect">-->
                 <!--                        <i class="fa fa-image"></i>-->
@@ -360,7 +361,7 @@
                 <? //= base_url('admin/sellers') ?><!--"><span> Breed Sellers </span></a></li>-->
                 <!--                    </ul>-->
                 <!--                </li>-->
-                <li class="has_sub" >
+                <li class="has_sub" style="display: none" >
                     <a href="#" class="waves-effect">
                         <i class=" ion-images "></i>
                         <span> Slider </span> <span

@@ -85,15 +85,15 @@ defined('EXIT__AUTO_MIN') OR define('EXIT__AUTO_MIN', 9); // lowest automaticall
 defined('EXIT__AUTO_MAX') OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 
-define("TITLE", "AD Sports");
-define("title", "AD Sports Corner");
-define("email", "ranga@itmartx.net");
+define("TITLE", "Rizkans Blog");
+define("title", "Rizkans Blog");
+define("email", "rizkan@itmartx.net");
 
 
 if (@end(explode('.', $_SERVER['SERVER_NAME'])) == 'dev') {
 
     define('HOST', 'localhost');
-    define('DB', 'adsports');
+    define('DB', 'blogr');
     define('USERNAME', 'root');
     define('PASSWORD', '');
 

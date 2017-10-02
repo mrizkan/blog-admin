@@ -460,10 +460,10 @@
                             <!-- blog-item Post -->
                             <div class="blog-item">
                                 <div class="blog-post">
-                                    <div class="blogpost-img">
-                                        <a href="#"><img src="<?= base_url('media/images/') ?>blog-post-1.jpg" alt="Post"></a>
+                                    <div class="blogpost-img"> <?php foreach ($blogs as $b_data): ?>
+                                        <a href="#"><img src="<?= UP . $b_data->Image ?>" alt=""/></a>
                                     </div>
-                                    <div class="post-share">
+                                    <div class="post-share"> <?php endforeach; ?>
                                         <div class="social-share">
                                             <span class="title-share">Share:</span>
                                             <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>

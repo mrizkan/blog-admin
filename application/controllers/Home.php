@@ -32,7 +32,7 @@ class Home extends Front_Controller
 
 //
         $d['sliders'] = $this->slider->order_by('Order', 'ASC')->get_all();
-//        $d['related_products'] = $this->product->order_by("Order", "ASC")->limit(6)->get_all();
+        $d['blogs'] = $this->blog->order_by("Order", "ASC")->limit(6)->get_all();
         $d['related_products'] = $this->product->limit(4)->order_by("ProductId", "DESC")->get_all();
 
 
