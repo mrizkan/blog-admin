@@ -361,7 +361,7 @@
                 <? //= base_url('admin/sellers') ?><!--"><span> Breed Sellers </span></a></li>-->
                 <!--                    </ul>-->
                 <!--                </li>-->
-                <li class="has_sub" style="display: none" >
+                <li class="has_sub">
                     <a href="#" class="waves-effect">
                         <i class=" ion-images "></i>
                         <span> Slider </span> <span
