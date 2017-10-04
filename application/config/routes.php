@@ -113,9 +113,9 @@ $route['Garment/(.+)/(:num)'] = 'product/garment_detail/$2';
 //$route['Sri-Lanka-News/(.+)'] = 'Slnews/index/$1';
 //$route['SL-News/(.+)/(.+)'] = 'Slnews/details/$2';
 //
-//$route['Blog'] = 'Blog/index';
-//$route['Blog/(.+)'] = 'Blog/index/$1';
-//$route['Blog-Detail/(.+)/(.+)'] = 'Blog/details/$2';
+$route['Blog'] = 'Blog/index';
+$route['Blog/(.+)'] = 'Blog/index/$1';
+$route['Blog-Detail/(.+)/(.+)'] = 'Blog/details/$2';
 //
 //$route['Sponsorship'] = 'Sponsorship/index';
 //$route['Sponsorship/(.+)'] = 'Sponsorship/index/$1';

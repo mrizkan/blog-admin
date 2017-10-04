@@ -80,6 +80,8 @@ class Blog extends Front_Controller
         $d['one_blog'] = $this->blog->get($id);
 //        p($this->db->last_query());
 
+//        p($d['one_blog']);
+
 //            echo $id;
         $this->view('blogdetails', $d);
     }

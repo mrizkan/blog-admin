@@ -68,7 +68,7 @@ class Photogallery extends Front_Controller
 //        p($this->db->last_query());
 //        p($d['count']);
 
-        $this->view('galleryphoto', $d);
+        $this->view('gallery', $d);
 
 //        $this->load->view('on_project');
 

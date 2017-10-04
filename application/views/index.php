@@ -44,7 +44,7 @@
                             <div class="blog-item">
                                 <div class="blog-post">
                                     <div class="blogpost-img">
-                                        <a href="#"><img src="<?= UP . $b_data->Image ?>" alt=""/></a>
+                                        <a href="<?= base_url('Blog-Detail/') . url_title($b_data->BlogTitle) . '/' . $b_data->BlogId ?>"><img src="<?= UP . $b_data->Image ?>" alt=""/></a>
                                     </div>
                                     <div class="post-share">
                                         <div class="social-share">
@@ -60,12 +60,9 @@
                                     </div>
                                     <div class="blogpost-info">
                                         <p class="post-category"><a href="#" title="Posts by category Travel">Lifestyle</a></p>
-                                        <h3 class="post-title"><a href="#">Because of your smile, you make life more beautiful.</a></h3>
-                                        <div class="post-meta">
-                                            <span><a href="#"><i class="fa fa-user"></i> By Dylan Wilson</a></span>
-                                            <span><a href="#"><i class="fa fa-clock-o"></i> March 20, 2017</a></span>
-                                        </div>
-                                        <p>I enjoy my life. I think I have a very good life. And I think I'm very satisfied with the direction of my career and just my lifestyle and everything like that. So I wouldn't change a single thing.</p>
+                                        <h3 class="post-title"><a href=""><?= $b_data->BlogTitle ?></a></h3>
+
+                                        <p><?= $b_data->ShortDescription ?></p>
                                         <div class="read-more">
                                             <a href="#" title="Read More">Read More</a>
                                         </div>
@@ -75,85 +72,9 @@
                             <?php endforeach; ?>
                             <!-- blog-item Post end -->
 
-                            <!-- blog-item Post -->
-
-                            <!-- blog-item Post end -->
-
-                            <!-- blog-item Post -->
-                            <div class="blog-item">
-                                <div class="blog-post">
-                                    <div class="blogpost-img">
-                                        <a href="#"><img src="<?= base_url('media/images/') ?>blog-post-5.jpg" alt="Post"></a>
-                                    </div>
-                                    <div class="post-share">
-                                        <div class="social-share">
-                                            <span class="title-share">Share:</span>
-                                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-                                        </div>
-                                        <div class="coment-share">
-                                            <a href="#"><i class="fa fa-comment"></i> 3</a>
-                                        </div>
-                                    </div>
-                                    <div class="blogpost-info">
-                                        <p class="post-category"><a href="#" title="Posts by category Travel">Travel</a></p>
-                                        <h3 class="post-title"><a href="#">You either know fashion or you don’t.</a></h3>
-                                        <div class="post-meta">
-                                            <span><a href="#"><i class="fa fa-user"></i> By Dylan Wilson</a></span>
-                                            <span><a href="#"><i class="fa fa-clock-o"></i> March 20, 2017</a></span>
-                                        </div>
-                                        <p>People say, ‘What do you mean you want to help the world, but you’re so concerned about fashion?’ It’s illegal to be naked. It is something that is extremely important.</p>
-                                        <div class="read-more">
-                                            <a href="#" title="Read More">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- blog-item Post end -->
-
-                            <!-- blog-item Post -->
-                            <div class="blog-item">
-                                <div class="blog-post">
-                                    <div class="blogpost-img">
-                                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7dilTLvbHxc" allowfullscreen></iframe>
-                                    </div>
-                                    <div class="post-share">
-                                        <div class="social-share">
-                                            <span class="title-share">Share:</span>
-                                            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-                                            <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a>
-                                        </div>
-                                        <div class="coment-share">
-                                            <a href="#"><i class="fa fa-comment"></i> 3</a>
-                                        </div>
-                                    </div>
-                                    <div class="blogpost-info">
-                                        <p class="post-category"><a href="#" title="Posts by category Travel">Travel</a></p>
-                                        <h3 class="post-title"><a href="#">A traveler without observation is a bird without wings</a></h3>
-                                        <div class="post-meta">
-                                            <span><a href="#"><i class="fa fa-user"></i> By Dylan Wilson</a></span>
-                                            <span><a href="#"><i class="fa fa-clock-o"></i> March 20, 2017</a></span>
-                                        </div>
-                                        <p>All travel has its advantages. If the passenger visits better countries, he may learn to improve his own. And if fortune carries him to worse, he may learn to enjoy it.</p>
-                                        <div class="read-more">
-                                            <a href="#" title="Read More">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- blog-item Post end -->
 
                         </div>
-                        <ul class="pagination">
-                            <li class="active"><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#"><i class="fa fa-angle-double-right"></i></a></li>
-                        </ul>
+
                     </div>
                     <div class="col-sm-12 col-md-3">
                         <div class="sidebar">
